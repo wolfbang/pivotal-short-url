@@ -43,7 +43,7 @@ def generate():
         url = 'http://%s.com' % random_str
         result = generate_short_url(url)
 
-        result_url = 'http://short.versa-ai.com:8000/short/%s' % result
+        result_url = 'http://short.localhost.com:8000/short/%s' % result
         short_urls.append(result_url)
 
     return str(short_urls)
